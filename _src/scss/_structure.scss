@@ -1,0 +1,75 @@
+
+.hero {
+    background-size: cover;
+    background-position: center bottom;
+    min-height:800px;
+
+        .form-container {
+            max-width:500px;
+        }
+}
+
+.message-ribbon {
+    padding:25px 0px;
+    text-align: center;
+}
+
+.page-content {
+    margin-top:100px;
+
+    .intro {
+        text-align: center;
+    }
+}
+
+.to-enter {
+    margin-top:50px;
+    margin-bottom:80px;
+    position: relative;
+
+        .italy-stamp {
+            position: absolute;
+            right:0px;
+            top:-60px;
+        }
+}
+
+
+// Start Bravo Styles
+.bravo {
+
+
+    h4 {
+        color:$pink;
+        margin-bottom:20px;
+    }
+
+    .hero {
+        background-image:url('../images/bravo-hero-bg.jpg');
+            .form-container {
+                background:rgba(255,255,255,0.5);
+                min-height:200px;
+                margin-top:75px;
+            }
+    }
+
+    .message-ribbon {
+        background-color:$pink;
+        color:$white;
+        font-size:4.375rem;
+    }
+
+    .about {
+        background-color:$gray;
+        min-height:200px;
+        padding-top:70px;
+
+            .video-container {
+                margin-bottom:30px;
+                img {
+                    width:100%;
+                }
+            }
+    }
+
+}

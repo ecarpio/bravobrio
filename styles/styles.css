@@ -1,0 +1,87 @@
+body, html {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+
+.large {
+  font-size: 3.4375rem;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 2.187rem;
+}
+
+p {
+  font-size: 1.562rem;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 800px;
+}
+
+.hero .form-container {
+  max-width: 500px;
+}
+
+.message-ribbon {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.page-content {
+  margin-top: 100px;
+}
+
+.page-content .intro {
+  text-align: center;
+}
+
+.to-enter {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.to-enter .italy-stamp {
+  position: absolute;
+  right: 0px;
+  top: -60px;
+}
+
+.bravo h4 {
+  color: #c3327d;
+  margin-bottom: 20px;
+}
+
+.bravo .hero {
+  background-image: url("../images/bravo-hero-bg.jpg");
+}
+
+.bravo .hero .form-container {
+  background: rgba(255, 255, 255, 0.5);
+  min-height: 200px;
+  margin-top: 75px;
+}
+
+.bravo .message-ribbon {
+  background-color: #c3327d;
+  color: #ffffff;
+  font-size: 4.375rem;
+}
+
+.bravo .about {
+  background-color: #eae4df;
+  min-height: 200px;
+  padding-top: 70px;
+}
+
+.bravo .about .video-container {
+  margin-bottom: 30px;
+}
+
+.bravo .about .video-container img {
+  width: 100%;
+}
