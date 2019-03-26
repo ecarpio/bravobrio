@@ -1,11 +1,21 @@
 body, html {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
+  color: #363636;
 }
 
 .large {
   font-size: 3.4375rem;
   margin-bottom: 50px;
+}
+
+a {
+  color: #363636;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000000;
 }
 
 h4 {
@@ -14,6 +24,50 @@ h4 {
 
 p {
   font-size: 1.562rem;
+}
+
+fieldset {
+  margin-bottom: 15px;
+}
+
+fieldset.terms {
+  font-size: 1.437rem;
+}
+
+fieldset.terms span {
+  float: left;
+  display: inline-block;
+  width: calc(100% - 40px);
+}
+
+fieldset.terms input {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+
+input[type=text],
+input[type=email] {
+  background-color: #ffffff;
+  border: 1px solid #eae4df;
+  font-size: 1rem;
+  padding: 13px;
+  width: 100%;
+}
+
+label {
+  font-size: 1.500rem;
+  margin-bottom: 0px;
+}
+
+.btn {
+  border: 0px;
+  font-size: 2.187rem;
+}
+
+.btn.btn-primary {
+  background-color: #c3327d;
 }
 
 .hero {
@@ -51,6 +105,21 @@ p {
   top: -60px;
 }
 
+.footer {
+  background-image: url("../images/bravo-footer-strip.png");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  padding-bottom: 100px;
+}
+
+.footer .fine-print {
+  margin: 50px 0px;
+}
+
+.footer .fine-print span {
+  font-weight: 500;
+}
+
 .bravo h4 {
   color: #c3327d;
   margin-bottom: 20px;
@@ -61,9 +130,14 @@ p {
 }
 
 .bravo .hero .form-container {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(241, 237, 233, 0.7);
   min-height: 200px;
   margin-top: 75px;
+  padding: 40px 50px;
+}
+
+.bravo .hero .form-container button {
+  width: 100%;
 }
 
 .bravo .message-ribbon {
@@ -76,6 +150,7 @@ p {
   background-color: #eae4df;
   min-height: 200px;
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .bravo .about .video-container {

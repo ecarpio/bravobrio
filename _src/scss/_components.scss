@@ -1,0 +1,46 @@
+// Forms
+fieldset {
+	margin-bottom:15px;
+
+		&.terms {
+
+			font-size:1.437rem;
+
+			span {
+				float:left;
+				display: inline-block;
+				width:calc(100% - 40px);
+			}
+
+			input {
+				width:30px;
+				height:30px;
+				float: left;
+				margin-right:10px;
+			}
+		}
+}
+
+input[type=text],
+input[type=email] {
+	background-color:$white;
+	border:1px solid $gray;
+	font-size:1rem;
+	padding:13px;
+	width: 100%;
+}
+
+label {
+	font-size:1.500rem;
+	margin-bottom:0px;
+}
+
+.btn {
+
+	border:0px;
+	font-size:2.187rem;
+
+	&.btn-primary {
+		background-color:$pink;
+	}
+}
