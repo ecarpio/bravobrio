@@ -419,6 +419,10 @@ input[type=email] {
   background-color: #d81965;
 }
 
+.brio .footer.confirm {
+  padding-top: 50px;
+}
+
 .brio .footer a {
   color: #363636;
 }
