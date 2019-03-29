@@ -36,11 +36,13 @@ label {
 }
 
 .btn {
-
+	border-radius: 0px;
 	border:0px;
 	font-size:2.187rem;
-
-	&.btn-primary {
-		background-color:$pink;
-	}
+	padding-right:30px;
+	padding-left:30px;
+	
+		&.btn-primary {
+			background-color:$pink;
+		}
 }

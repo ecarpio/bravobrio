@@ -62,8 +62,11 @@ label {
 }
 
 .btn {
+  border-radius: 0px;
   border: 0px;
   font-size: 2.187rem;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .btn.btn-primary {
@@ -74,6 +77,11 @@ label {
   background-size: cover;
   background-position: center bottom;
   min-height: 800px;
+}
+
+.hero .logo img {
+  width: 100%;
+  max-width: 345px;
 }
 
 .hero .form-container {
@@ -91,6 +99,15 @@ label {
 
 .page-content .intro {
   text-align: center;
+}
+
+.page-content .intro .submit-message {
+  margin-bottom: 200px;
+}
+
+.page-content .so-italy {
+  width: 100%;
+  max-width: 640px;
 }
 
 .to-enter {
@@ -120,6 +137,29 @@ label {
   font-weight: 500;
 }
 
+.footer .card-promo {
+  margin-top: 100px;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer .card-promo button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer .card-promo .gift-card {
+  width: 100%;
+  max-width: 404px;
+}
+
+.footer .offer-expires {
+  text-align: center;
+  margin-bottom: 120px;
+  font-size: 1.562rem;
+}
+
 .footer .banner {
   max-width: 1600px;
   width: 100%;
@@ -145,10 +185,25 @@ label {
   width: 100%;
 }
 
+.bravo .hero .form-container.confirm {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 3.437rem;
+}
+
+.bravo .hero .form-container.confirm button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 500px;
+}
+
 .bravo .message-ribbon {
   background-color: #c3327d;
   color: #ffffff;
   font-size: 4.375rem;
+  height: 155px;
 }
 
 .bravo .about {
@@ -164,4 +219,14 @@ label {
 
 .bravo .about .video-container img {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  body, html {
+    font-size: 12px;
+  }
+  .bravo .hero .form-container {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+  }
 }
