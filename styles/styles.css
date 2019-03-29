@@ -1,50 +1,56 @@
-body, html {
+.bravo {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   color: #363636;
 }
 
-.large {
-  font-size: 3.4375rem;
-  margin-bottom: 50px;
-}
-
-a {
+.bravo a {
   color: #363636;
   text-decoration: underline;
 }
 
-a:hover {
+.bravo a:hover {
   color: #000000;
 }
 
-h4 {
-  font-size: 2.187rem;
+.bravo .large {
+  font-size: 3.4375rem;
+  margin-bottom: 50px;
+}
+
+.brio {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #363636;
+}
+
+.brio a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.brio a:hover {
+  color: #000000;
+}
+
+.brio .large {
+  font-size: 3.4375rem;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.brio .large strong {
+  font-weight: 500;
+}
+
+.brio .large span {
+  margin-top: 10px;
+  display: block;
+  font-size: 4.375rem;
 }
 
 p {
   font-size: 1.562rem;
-}
-
-fieldset {
-  margin-bottom: 15px;
-}
-
-fieldset.terms {
-  font-size: 1.437rem;
-}
-
-fieldset.terms span {
-  float: left;
-  display: inline-block;
-  width: calc(100% - 40px);
-}
-
-fieldset.terms input {
-  width: 30px;
-  height: 30px;
-  float: left;
-  margin-right: 10px;
 }
 
 input[type=text],
@@ -56,12 +62,12 @@ input[type=email] {
   width: 100%;
 }
 
-label {
+.bravo label {
   font-size: 1.500rem;
   margin-bottom: 0px;
 }
 
-.btn {
+.bravo .btn {
   border-radius: 0px;
   border: 0px;
   font-size: 2.187rem;
@@ -69,8 +75,71 @@ label {
   padding-left: 30px;
 }
 
-.btn.btn-primary {
+.bravo .btn.btn-primary {
   background-color: #c3327d;
+}
+
+.bravo fieldset {
+  margin-bottom: 15px;
+}
+
+.bravo fieldset.terms {
+  font-size: 1.437rem;
+}
+
+.bravo fieldset.terms span {
+  float: left;
+  display: inline-block;
+  width: calc(100% - 40px);
+}
+
+.bravo fieldset.terms input {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+
+.brio label {
+  font-size: 1.437rem;
+  margin-bottom: 5px;
+}
+
+.brio .btn {
+  border-radius: 50px;
+  border: 0px;
+  font-weight: 600;
+  font-size: 1.875rem;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.brio .btn.btn-primary {
+  background-color: #d81965;
+}
+
+.brio fieldset {
+  margin-bottom: 15px;
+}
+
+.brio fieldset.terms {
+  margin-top: 20px;
+  font-size: 1.437rem;
+}
+
+.brio fieldset.terms span {
+  float: left;
+  display: inline-block;
+  line-height: 30px;
+  width: calc(100% - 40px);
+  margin-bottom: 20px;
+}
+
+.brio fieldset.terms input {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
 }
 
 .hero {
@@ -88,11 +157,6 @@ label {
   max-width: 500px;
 }
 
-.message-ribbon {
-  padding: 25px 0px;
-  text-align: center;
-}
-
 .page-content {
   margin-top: 100px;
 }
@@ -103,11 +167,6 @@ label {
 
 .page-content .intro .submit-message {
   margin-bottom: 200px;
-}
-
-.page-content .so-italy {
-  width: 100%;
-  max-width: 640px;
 }
 
 .to-enter {
@@ -167,6 +226,7 @@ label {
 
 .bravo h4 {
   color: #c3327d;
+  font-size: 2.187rem;
   margin-bottom: 20px;
 }
 
@@ -200,10 +260,17 @@ label {
 }
 
 .bravo .message-ribbon {
+  padding: 25px 0px;
+  text-align: center;
   background-color: #c3327d;
   color: #ffffff;
   font-size: 4.375rem;
   height: 155px;
+}
+
+.bravo .so-italy {
+  width: 100%;
+  max-width: 640px;
 }
 
 .bravo .about {
@@ -221,12 +288,174 @@ label {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+.brio .hero {
+  background-image: url("../images/brio-hero-bg.jpg");
+  height: 930px;
+}
+
+.brio .hero .form-container {
+  background: -moz-radial-gradient(center, ellipse cover, rgba(9, 58, 139, 0.48) 0%, rgba(9, 58, 139, 0.48) 1%, rgba(9, 58, 139, 0.9) 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(9, 58, 139, 0.48) 0%, rgba(9, 58, 139, 0.48) 1%, rgba(9, 58, 139, 0.9) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(9, 58, 139, 0.48) 0%, rgba(9, 58, 139, 0.48) 1%, rgba(9, 58, 139, 0.9) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a093a8b', endColorstr='#e6093a8b',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.5);
+  min-height: 200px;
+  padding: 40px 50px;
+  color: #ffffff;
+}
+
+.brio .hero .form-container hr {
+  border-top: 2px solid #ffffff;
+  height: 5px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.brio .hero .form-container h3 {
+  text-align: center;
+  font-size: 2.65rem;
+  font-weight: 600;
+}
+
+.brio .hero .form-container button {
+  width: 100%;
+}
+
+.brio .hero .form-container.confirm {
+  width: 100%;
+  max-width: 100%;
+  font-weight: 200;
+  text-align: center;
+  font-size: 3.437rem;
+  line-height: 4rem;
+  margin-top: 200px;
+  padding: 80px 50px 70px 50px;
+}
+
+.brio .hero .form-container.confirm button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 500px;
+}
+
+.brio h4 {
+  color: #d81965;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.brio .message-ribbon {
+  text-align: center;
+  background-color: #d81965;
+  color: #ffffff;
+  height: 30px;
+  margin-bottom: 200px;
+}
+
+.brio .message-ribbon .thank-you-badge {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  margin-top: -60px;
+  width: 100%;
+  max-width: 712px;
+}
+
+.brio .so-italy {
+  width: 100%;
+  max-width: 640px;
+}
+
+.brio .to-enter {
+  font-size: 1.563rem;
+}
+
+.brio .about {
+  padding: 100px 0px 100px 0px;
+  background: url("../images/about-bg.jpg") center bottom;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.brio .about p {
+  z-index: 10;
+  position: relative;
+}
+
+.brio .about .video-placeholder {
+  margin-bottom: 80px;
+}
+
+.brio .about .video-container {
+  margin-bottom: 30px;
+}
+
+.brio .about .video-container img {
+  width: 100%;
+}
+
+.brio .tulip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.brio .footer {
+  background-image: url(../images/about-bg.jpg);
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.brio .footer:after {
+  height: 120px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  content: '';
+  background-color: #d81965;
+}
+
+.brio .footer a {
+  color: #363636;
+}
+
+.brio .footer .card-promo {
+  font-weight: 200;
+}
+
+@media (max-width: 991px) {
+  .brio .hero {
+    height: 1080px;
+  }
+}
+
+@media (max-width: 767px) {
   body, html {
     font-size: 12px;
   }
   .bravo .hero .form-container {
     padding: 40px 20px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .brio .hero {
+    height: 900px;
+  }
+  .brio .message-ribbon {
+    margin-bottom: 0px;
+    height: auto;
+  }
+  .brio .message-ribbon .thank-you-badge {
+    position: relative;
+    margin-top: 0px;
+  }
+  .brio .page-content {
+    margin-top: 40px;
   }
 }

@@ -1,6 +1,36 @@
 // Forms
-fieldset {
-	margin-bottom:15px;
+input[type=text],
+input[type=email] {
+	background-color:$white;
+	border:1px solid $gray;
+	font-size:1rem;
+	padding:13px;
+	width: 100%;
+}
+
+
+
+.bravo {
+
+	label {
+		font-size:1.500rem;
+		margin-bottom:0px;
+	}
+
+	.btn {
+		border-radius: 0px;
+		border:0px;
+		font-size:2.187rem;
+		padding-right:30px;
+		padding-left:30px;
+
+			&.btn-primary {
+				background-color:$pink;
+			}
+	}
+
+	fieldset {
+		margin-bottom:15px;
 
 		&.terms {
 
@@ -19,30 +49,52 @@ fieldset {
 				margin-right:10px;
 			}
 		}
+	}
 }
 
-input[type=text],
-input[type=email] {
-	background-color:$white;
-	border:1px solid $gray;
-	font-size:1rem;
-	padding:13px;
-	width: 100%;
-}
+.brio {
 
-label {
-	font-size:1.500rem;
-	margin-bottom:0px;
-}
+	label {
+		font-size:1.437rem;
+		margin-bottom:5px;
+	}
 
-.btn {
-	border-radius: 0px;
-	border:0px;
-	font-size:2.187rem;
-	padding-right:30px;
-	padding-left:30px;
-	
-		&.btn-primary {
-			background-color:$pink;
+	.btn {
+		border-radius: 50px;
+		border:0px;
+		font-weight:600;
+		font-size:1.875rem;
+		padding-right:30px;
+		padding-left:30px;
+
+			&.btn-primary {
+				background-color:$magenta;
+			}
+	}
+
+
+	fieldset {
+		margin-bottom:15px;
+
+		&.terms {
+			margin-top:20px;
+			font-size:1.437rem;
+
+			span {
+				float:left;
+				display: inline-block;
+				line-height:30px;
+				width:calc(100% - 40px);
+				margin-bottom:20px;
+			}
+
+			input {
+				width:30px;
+				height:30px;
+				float: left;
+				margin-right:10px;
+			}
 		}
+	}
+
 }

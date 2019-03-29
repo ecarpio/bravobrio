@@ -1,4 +1,16 @@
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+
+	.brio {
+		.hero {
+			height:1080px;
+		}
+
+		
+	}
+
+}
+
+@media (max-width: 767px) {
 	body, html {
 		font-size:12px;
 	}
@@ -12,4 +24,30 @@
 		}
 	}
 	
+
+
+}
+
+@media (max-width: 640px) {
+
+	.brio {
+
+		.hero {
+			height:900px;
+		}
+
+		.message-ribbon {
+			margin-bottom:0px;
+			height:auto;
+				
+				.thank-you-badge {
+					position: relative;
+					margin-top:0px;
+				}
+		}
+
+		.page-content {
+			margin-top:40px;
+		}
+	}
 }
